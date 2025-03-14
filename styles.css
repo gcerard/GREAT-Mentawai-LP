@@ -1,62 +1,209 @@
-/* Reset dasar */
-body, h1, h2, p, ul {
-    margin: 0;
-    padding: 0;
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+.desktop .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
 }
 
-header {
-    background-color: #004080;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+.desktop .hero {
+  position: absolute;
+  width: 608px;
+  height: 226px;
+  top: 221px;
+  left: 188px;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0.5rem;
-    background: #003366;
+.desktop .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-nav ul li {
-    margin: 0 15px;
+.desktop .p {
+  position: absolute;
+  width: 604px;
+  top: 88px;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+.desktop .navbar {
+  position: absolute;
+  width: 1075px;
+  height: 75px;
+  top: 32px;
+  left: 188px;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.desktop .logo-JEMARI {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
-main {
-    padding: 20px;
-    text-align: center;
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 16px;
+  left: 90px;
+  font-family: "Poppins-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-section {
-    background: white;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+.desktop .text-wrapper-3 {
+  position: absolute;
+  top: 26px;
+  left: 642px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #004080;
-    color: white;
-    margin-top: 20px;
+.desktop .text-wrapper-4 {
+  left: 773px;
+  position: absolute;
+  top: 26px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  top: 26px;
+  left: 867px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-6 {
+  left: 1007px;
+  position: absolute;
+  top: 26px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .group {
+  left: 368px;
+  position: absolute;
+  width: 167px;
+  height: 45px;
+  top: 528px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 165px;
+  height: 45px;
+  background-color: #d9d9d9;
+  border-radius: 25px;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  top: 11px;
+  left: 26px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-wrapper {
+  left: 638px;
+  position: absolute;
+  width: 167px;
+  height: 45px;
+  top: 528px;
+}
+
+.desktop .text-wrapper-8 {
+  position: absolute;
+  top: 11px;
+  left: 63px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-group-wrapper {
+  left: 908px;
+  position: absolute;
+  width: 167px;
+  height: 45px;
+  top: 528px;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  top: 11px;
+  left: 66px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .keaton-dickinson {
+  position: absolute;
+  width: 345px;
+  height: 230px;
+  top: 217px;
+  left: 908px;
+  object-fit: cover;
 }
